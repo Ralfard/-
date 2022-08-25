@@ -1,0 +1,45 @@
+body{
+    margin: auto;
+    width: 70%;
+}
+#inputArea{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#inputArea :nth-child(3)::after{
+    color: gray;
+    content: "лет";
+}
+#inputArea :nth-child(4)::after{
+    color: gray;
+    content: "в %";
+}
+#inputArea :nth-child(5)::after{
+    color: gray;
+    content: "в % годовых";
+}
+#inputArea input{
+    display: block;
+    width: 95%;
+    height: 25px;
+    font-size: large;
+    padding-left: 5px;
+}
+#inputArea label{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+}
+#calculate{
+    margin: 10px 80px;
+    height: 30px;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(3, 176, 3);
+    color: aliceblue;
+}
+#calculate:hover{
+    background-color: rgb(2, 207, 2)
+}

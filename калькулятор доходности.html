@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h2>КАЛЬКУЛЯТОР НАКОПЛЕНИЙ С УЧЁТОМ ИНФЛЯЦИИ</h2>
+        <p>Калькулятор поможет рассчитать объём накоплений, сроки инвестирования и сумму пополнений для достижения финансовых целей. Построен на формуле сложных процентов и учитывает инфляцию и налоги.</p>
+        <div id="inputArea">
+            <label for="startSum">Первоначальный взнос
+                <input name="starnSum" type="text" value="100000">
+            </label>
+            <label for="addSum">Ежемесячное пополнение
+                <input name="addSum" type="text" value="20000">
+            </label>
+            <label for="years">Горизонт инвестирования
+                <input name="years" type="text" value="20">
+            </label>
+            <label for="inflation">Инфляция
+                <input name="inflation" type="text" value="5">
+            </label>    
+            <label for="profitability">Ожидаемая доходность
+                <input name="profitability" type="text" value="10">
+            </label>  
+            <label for="capitalization">Число капитализаций в год
+                <input name="capitalization" type="text" value="4">
+            </label>  
+            <button id="calculate" >Расчитать</button>
+        </div>
+        <div id="result">
+            <p> </p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <div id="table">
+            <table>
+                
+            </table>
+        </div>
+        <div id="grafic"></div>
+
+    </main>
+    <script src="script.js"> </script>
+</body>
+</html>
