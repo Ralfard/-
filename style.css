@@ -43,3 +43,19 @@ body{
 #calculate:hover{
     background-color: rgb(2, 207, 2)
 }
+table{
+    margin: 15px 5px;
+    border-collapse: collapse;
+}
+thead{
+    font-weight: bolder;
+}
+td{
+    border: 1px black solid;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+}
+#grafic{
+    border: 1px solid black;
+}
